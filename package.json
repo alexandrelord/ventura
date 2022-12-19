@@ -1,0 +1,13 @@
+{
+  "name": "ventura",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [],
+  "author": "Alexandre Lord",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

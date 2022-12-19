@@ -1,0 +1,36 @@
+.card {
+    height: 350px;
+    width: 350px;
+    background: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.cardHeader {
+    height: 60%;
+    width: 100%;
+    background-image: url('/src/images/medellin.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardBody {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBody > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
